@@ -1,13 +1,14 @@
-
+/* CSS general */
 div.prubecolor {
     background-color: black !important;
 }
 div.pruebacolor {
     background-image: url(../img/Breve-Historia-Construcción.jpg);
     background-size: cover;
+    width: 100vw;
     
 }
-
+    /* footer */
 .pruebagrid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -37,6 +38,7 @@ div.pruebacolor {
     align-items: center; 
  }   
 
+ /* index */
 h2.animate__animated.animate__backInLeft,
 h2.animate__animated.animate__backInLeft a,
 h2.animate__animated.animate__backInRight {
@@ -44,15 +46,26 @@ h2.animate__animated.animate__backInRight {
     text-decoration: none;
     color: black;
 }
-div.row.d-flex.justify-content-center {
-    margi-right: 0 important;
-}
-img.img-fluid {
-    width: 100vw;
-}
-
+/* div.row.d-flex.justify-content-center {
+    margi-right: 0 important; */
 
 div.row.d-flex.justify-content-center {
 
     max-width: 100vw ;
 } 
+
+/* parque */
+h2.animate__animated.animate__backInLeft.mt-3.mb-3 a{
+    text-decoration: none;
+    color: black;
+}
+section.gridparques {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 5px;
+
+}
+div.footerrcolor {
+    background-color: black;
+}
