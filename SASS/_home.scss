@@ -1,0 +1,16 @@
+/* index */
+h2.animate__animated.animate__backInLeft,
+h2.animate__animated.animate__backInLeft a,
+h2.animate__animated.animate__backInRight {
+    animation-duration: 3s;
+    text-decoration: none;
+    color: $colorPrincipal;
+}
+/* div.row.d-flex.justify-content-center {
+    margi-right: 0 important; */
+
+div.row.d-flex.justify-content-center {
+    max-width: 100vw ;
+    margin: 0;
+}
+

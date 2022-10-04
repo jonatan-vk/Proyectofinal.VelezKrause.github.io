@@ -1,0 +1,31 @@
+  /* footer */
+  .pruebagrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 75px 75px;
+    justify-items: center;
+    align-items: center;
+    margin-top: 20px;
+    div img {
+        width: 75px;
+        height: auto;
+    }
+    .griditem4:nth-child(4) {
+        grid-column: 1/4;
+        }
+    .griditem4 {
+        justify-content: center;
+        align-items: center;
+    }
+    .griditem5:nth-child(5) {
+        grid-column: 1/4;
+    }
+    .griditem5 {
+        justify-content: center;
+        align-items: center; 
+     }   
+}
+
+
+
+

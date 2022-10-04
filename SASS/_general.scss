@@ -1,0 +1,14 @@
+/* CSS general */
+div {
+    &.prubecolor {  
+    background-color: $colorPrincipal; 
+   } 
+ }
+
+div {
+    &.pruebacolor { 
+    background-image: url(../img/Breve-Historia-Construcción.jpg);
+    background-size: cover;
+    width: 100vw;
+    }
+}        
