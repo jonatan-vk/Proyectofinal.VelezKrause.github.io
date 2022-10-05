@@ -1,0 +1,25 @@
+/* Conocenos */
+div {
+    &.conocenos {
+        color: $colorText;
+
+    }
+}
+@media (max-width: 578px) { 
+    a.text-white    {
+    font-size: $h2mobile;
+   }
+}
+@media (max-width: 578px) {
+    h2.animate__animated.animate__backInLeft {
+        @include h2EspaciadoMobile;
+        
+    }
+}
+@media (min-width: 579px) {
+    h2 {
+        &.animate__animated.animate__backInLeft {
+            @include h2EspaciadoDesktop;
+        }
+    }
+}

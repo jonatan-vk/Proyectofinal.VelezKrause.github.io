@@ -11,4 +11,11 @@ div {
     background-size: cover;
     width: 100vw;
     }
-}        
+}       
+@mixin h2EspaciadoMobile {
+    margin: 10px 0px;
+    
+}
+@mixin h2EspaciadoDesktop {
+    margin: 15px 0px;
+}
