@@ -1,0 +1,57 @@
+/* Contactos */
+iframe {
+    &.maps {
+        max-width: 100%;
+        max-height: auto;
+    }
+}
+div.divContacto { 
+    margin-top: 30px;
+    & p.textContacto {
+        color: $colorText;
+        font-size: $textoP;
+        
+    }
+}
+div.divContacto1 {
+    font-size: $textoP;
+}
+
+
+img {
+    &.redes {
+        width: $imgRedesMobile;
+        height: auto;
+    }
+}
+div {
+    &.gridRedes {
+        display: grid;
+        grid-template-columns: 30px auto;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        gap: 2px;
+        justify-content: center;
+    }
+}
+@media (min-whidth: 992px) {
+    iframe {
+        &.maps {
+            max-width: 500px;
+            max-height: auto;
+            margin-right: 50px;
+        }
+    }
+}
+@media (min-width: 992px) {
+    body.bodyContacto {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+
+    }
+}
+footer {
+    &.footerContacto{
+        margin-top: auto;
+    }
+}
