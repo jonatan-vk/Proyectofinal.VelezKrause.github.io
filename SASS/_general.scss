@@ -17,5 +17,30 @@ div {
     
 }
 @mixin h2EspaciadoDesktop {
-    margin: 15px 0px;
+    margin: 25px 0px;
 }
+
+@media (min-width: 1200px) {
+    a {
+        &.nav-link {
+            font-size: 25px;
+        }
+        &.navbar-brand {
+            font-size: 35px;
+        }
+    }
+}
+a {
+    &.navbar-brand {
+        font-family: 'oswald' , sans-serif;
+    }
+}
+h1 {
+    &.animate__animated {
+        font-family: "poppins" , sans-serif;
+    }
+}
+
+/* .videoParques {
+    padding-left: 20px !important;
+} */

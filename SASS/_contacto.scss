@@ -6,7 +6,7 @@ iframe {
     }
 }
 div.divContacto { 
-    margin-top: 30px;
+    margin-top: 50px;
     & p.textContacto {
         color: $colorText;
         font-size: $textoP;
@@ -53,5 +53,22 @@ div {
 footer {
     &.footerContacto{
         margin-top: auto;
+    }
+}
+@media (min-width: 1200px) {
+    p {
+        &.fontRedes {
+            font-size: 25px;
+        }
+    }
+}
+p {
+    &.fontRedes {
+        font-family: "Poppins" , sans-serif;
+    }
+}
+p {
+    &.textContacto {
+        font-family: "Poppins" , sans-serif;
     }
 }

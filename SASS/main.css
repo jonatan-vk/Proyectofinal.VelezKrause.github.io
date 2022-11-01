@@ -10,6 +10,25 @@ div.pruebacolor {
   width: 100vw;
 }
 
+@media (min-width: 1200px) {
+  a.nav-link {
+    font-size: 25px;
+  }
+  a.navbar-brand {
+    font-size: 35px;
+  }
+}
+a.navbar-brand {
+  font-family: "oswald", sans-serif;
+}
+
+h1.animate__animated {
+  font-family: "poppins", sans-serif;
+}
+
+/* .videoParques {
+    padding-left: 20px !important;
+} */
 /* footer */
 .pruebagrid {
   display: grid;
@@ -39,6 +58,10 @@ div.pruebacolor {
 }
 
 /* index */
+/* .bodyHomePrueba {
+    min-width: 100vh;
+    min-height: 100vh;
+} */
 h2.animate__animated.animate__backInLeft,
 h2.animate__animated.animate__backInLeft a,
 h2.animate__animated.animate__backInRight {
@@ -77,6 +100,12 @@ div.footerrcolor {
   background-color: black;
 }
 
+/* @media (min-whidth: 1400px) {
+    .imgParquesDesktop {
+        display: flex;
+        flex-direction: row;
+     }
+} */
 /* Conocenos */
 div.conocenos {
   color: white;
@@ -94,7 +123,7 @@ div.conocenos {
 }
 @media (min-width: 579px) {
   h2.animate__animated.animate__backInLeft {
-    margin: 15px 0px;
+    margin: 25px 0px;
   }
 }
 img.img-fluid.pr-0.imgConocenos {
@@ -106,6 +135,12 @@ img.img-fluid.pr-0.imgConocenos {
     margin-top: 30px;
   }
 }
+@media (min-width: 1400px) {
+  .conocenos {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
 /* Contactos */
 iframe.maps {
   max-width: 100%;
@@ -113,7 +148,7 @@ iframe.maps {
 }
 
 div.divContacto {
-  margin-top: 30px;
+  margin-top: 50px;
 }
 div.divContacto p.textContacto {
   color: white;
@@ -153,4 +188,17 @@ div.gridRedes {
 }
 footer.footerContacto {
   margin-top: auto;
+}
+
+@media (min-width: 1200px) {
+  p.fontRedes {
+    font-size: 25px;
+  }
+}
+p.fontRedes {
+  font-family: "Poppins", sans-serif;
+}
+
+p.textContacto {
+  font-family: "Poppins", sans-serif;
 }/*# sourceMappingURL=main.css.map */
